@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Deep-Learning-Project-Using-MLOPS-DVC-Pipeline"
 AUTHOR_USER_NAME = "Prathmesh092001"
-SRC_REPO = "Chicken-disease-Classifier"
+SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "prathmeshhambarde@gmail.com"
 
 
