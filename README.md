@@ -56,8 +56,9 @@ open up you local host and port
 1. EC2 access : It is virtual machine
 
 2. ECR: Elastic Container registry to save your docker image in aws
+```
 
-
+```
 #Description: About the deployment
 
 1. Build docker image of the source code
@@ -113,26 +114,8 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = eu-north-1
+AWS_REGION = 
 
 AWS_ECR_LOGIN_URI = demo>>  555208425878.dkr.ecr.eu-north-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app >> chicken
- 
-
-# AZURE-CICD-Deployment-with-Github-Actions
-## Save pass:
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
-
-Run from terminal:
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login chickenapp.azurecr.io
-
-docker push chickenapp.azurecr.io/chicken:latest
-
-Deployment Steps:
-Build the Docker image of the Source Code
-Push the Docker image to Container Registry
-Launch the Web App Server in Azure
-Pull the Docker image from the container registry to Web App server and run
