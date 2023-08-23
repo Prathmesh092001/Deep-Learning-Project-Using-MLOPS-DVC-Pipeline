@@ -26,7 +26,6 @@ conda create -n chicken python=3.8 -y
 conda activate chicken
 
 ```
-
 ### STEP 02- install the requirements
 ```
 pip install -r requirements.txt
@@ -47,6 +46,7 @@ open up you local host and port
 3. dvc dag
 
 ## AWS-CICD-Deployment-with-Github-Actions
+
 ### 1. Login to AWS console.
 ### 2. Create IAM user for deployment
 
@@ -116,6 +116,6 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = 
 
-AWS_ECR_LOGIN_URI = demo>>  555208425878.dkr.ecr.eu-north-1.amazonaws.com
+AWS_ECR_LOGIN_URI = demo>>  
 
 ECR_REPOSITORY_NAME = simple-app >> chicken
